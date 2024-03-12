@@ -250,6 +250,7 @@ function draw() {
         if (checkCollision(badFry.x, badFry.y, badFry.w, badFry.h, myImageArray[ii].x, myImageArray[ii].y, myImageArray[ii].w, myImageArray[ii].h,)) {
           badFry = null
           badSound = loadSound("./sounds/bad collision.wav");
+          //loadSound("./sounds/bad collision.wav").play();
 
           points--;
 
@@ -264,7 +265,7 @@ function draw() {
         if (checkCollision(myFry.x, myFry.y, myFry.w, myFry.h, myImageArray[ii].x, myImageArray[ii].y, myImageArray[ii].w, myImageArray[ii].h,)) {
           myFry = null
           collideSound = loadSound("./sounds/collide sound.wav");
-          
+          //loadSound("./sounds/collide sound.wav").play();
 
           points++;
 

@@ -22,7 +22,7 @@ updateX(x)
 //updateY(y)
 //{
 //    this.y = y;
-//}
+//}  
 
 
 updateFlip(flipX) {

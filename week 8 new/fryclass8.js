@@ -11,7 +11,7 @@ class fry
     this.h = h;
     }
 
-    //functions
+    //functions  
 
 
 
